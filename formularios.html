@@ -9,6 +9,7 @@
 <body>
   <h1>Freelancer Treinamento</h1>
   <br />
+  <img src="images/sonic.jpg" width="320em"/>
   <form>
     <p>
       <label for="itext">Campo de texto:</label>
@@ -30,7 +31,53 @@
       <label for="idate">Campo de data:</label>
       <input id="idate" type="date" />
     </p>
-    <!--TODO-->
+    <p>
+      <label for="ifile">Campo de arquivo:</label>
+      <input id="ifile" type="file" />
+    </p>
+    <p>
+      <label for="ipassw">Campo de senha:</label>
+      <input id="ipassw" type="password" />
+    </p>
+    <p>
+      Escolha sim ou não:<br />
+      <label><input name="iradio" type="radio" value="1" />Sim</label>
+      <label><input name="iradio" type="radio" value="0" />Não</label>
+    </p>
+    <p>
+      Escolha todas as frutas que você gosta:<br />
+      <label><input name="icheck" type="checkbox" value="1" />Banana</label>
+      <label><input name="icheck" type="checkbox" value="2" />Laranja</label>
+      <label><input name="icheck" type="checkbox" value="3" />Maçã</label>
+      <label><input name="icheck" type="checkbox" value="4" />Uva</label>
+    </p>
+    <p>
+      Select simples:
+      <select name="select">
+        <option value="valor1">Valor 1</option>
+        <option value="valor2" selected>Valor 2</option>
+        <option value="valor3">Valor 3</option>
+      </select>
+    </p>
+    <p>
+      Select múltiplo:
+      <select name="select" multiple>
+        <option value="valor1">Valor 1</option>
+        <option value="valor2" selected>Valor 2</option>
+        <option value="valor3">Valor 3</option>
+      </select>
+    </p>
+    <p>
+      <label for="tarea">Área de texto:</label>
+      <textarea
+      id="tarea"
+      rows="6"
+      placeholder="Digite aqui"
+      ></textarea>
+    </p>
+    <p>
+      <input type="submit" value="Enviar Formulário" />
+    </p>
   </form>
 </body>
 </html>
